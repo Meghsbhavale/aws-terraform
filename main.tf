@@ -1,3 +1,6 @@
+# this is a basic code to list all the VPCs in AWS account
+
+
 data "aws_vpcs" "all_vpcs" {}
 
 output "vpc_ids" {
